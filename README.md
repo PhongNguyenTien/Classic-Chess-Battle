@@ -3,7 +3,7 @@ A simple program which is relevant to SDL2 library and C++.
 ## Hướng dẫn cài đặt 
 - Tạo 1 folder mới, đặt tên là Classic Chess Battle.
 - Trong Visual Studio 2022, chọn Clone a Repository trong mục Get Started.
-- Tại mục Repository Location, dán đường link https://github.com/PhongNguyenTien/Classic_Chess.git .
+- Tại mục Repository Location, dán đường link https://github.com/PhongNguyenTien/Classic-Chess-Battle .
 - Tại mục Path, nhấn chuột vào dấu ba chấm bên phải, chọn thư mục Classic Chess Battle vừa tạo, rồi nhấn Select Folder, sau đó nhấn Clone.
 - Sau khi đã clone xong, mở file Classic Chess Battle.sln trong phần Solution Explorer.
 - Trong project Classic Chess có chứa các file .cpp và file .h, nhấn vào Local Windows Debugger để chạy chương trình.
@@ -15,7 +15,7 @@ A simple program which is relevant to SDL2 library and C++.
 - Ở mỗi bên, khi quân vua bị chiếu, chỉ những nước đi thỏa mãn vua không bị ăn mới được đánh dấu.
 - Có chức năng phong cấp cho tốt và chức năng nhập thành.
 - Báo hiệu game kết thúc khi 1 trong 2 bên bị chiếu hết hoặc hòa cờ.
-- Link video demo: https://youtu.be/3izpdRbbvrI
+- Link video demo:
 ## Các kĩ thuật được sử dụng
 - Chương trình chạy trên C++14, x64, Visual Studio 2022.
 - Thư viện đồ họa: SDL2, SDL2_image
