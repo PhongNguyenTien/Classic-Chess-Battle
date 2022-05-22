@@ -78,6 +78,7 @@ int startGame(SDL_BaseHandler* m_handler)
         }
         SDL_RenderPresent(m_handler->m_renderer);
     }
+    return 0;
 }
 void runGameLoop()
 {
