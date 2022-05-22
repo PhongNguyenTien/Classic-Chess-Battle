@@ -384,15 +384,10 @@ int Game::gameState()
 
         if (turn == BLACK)
         {
-
-            //SDL_Texture* result = m_handler->loadImage("image\\blackwin.png");
-            //m_handler->DrawRectangle(src, rectangle, result);
             return 1;
         }
         else
         {
-            //SDL_Texture* result = m_handler->loadImage("image\\whitewin.png");
-            //m_handler->DrawRectangle(src, rectangle, result);
             return 2;
         }
     }
