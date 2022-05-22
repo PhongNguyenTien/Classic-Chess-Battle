@@ -37,7 +37,7 @@ void Menu::render()
     SDL_Rect dest = {0, 0, 640, 640};
 
     m_handler->DrawRectangle(src, dest, m_texture);
-    //cout << 1 << '\n';
+    
     for(int i = 0;i < button.size(); i++)
     {
         button[i]->render();
